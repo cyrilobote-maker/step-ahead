@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Ahead Nursery School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<nav>
+<div class="logo-title">
+    <img src="media.html/images/badge.png" alt="school logo">
+    <h1>Step Ahead Nursery School</h1><br>
+    <span> A KEY TO SUCCESS.</span>
+ </div>
+ <!--desktop-->
+    <div class="desktop-nav">
+        <a href="index.html">HOME</a>
+        <a href="about us.html">ABOUT US</a>
+        <a href="admisions.html">ADMISIONS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT US</a>
+    </div>
+    <!--phone-->
+    <div id="nav-links" class="mobile-nav">
+        <a href="#index">HOME</a>
+        <a href="#about-us">ABOUT US</a>
+        <a href="#gallery">OUR GALLERY</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#admisions">ADMISIONS</a>
+    </div>
+<button class="menu-toggle" id="menuToggle">☰</button>    
+</nav>
+
+<section id="admisions" class="admisions-section">
+    <h1>Admissions</h1>
+    <p>
+        Welcome to Step Ahead Nursery and Primary School.
+        We welcome parents and guardians who wish to give their children
+        a good foundation for their education.
+    </p>
+  <div class="content">
+  <div class="box">   
+    
+    <h2>How to Apply</h2>
+        <p>
+        Parents or guardians can visit the school and collect an admission form fill in the required information and submit the form to the school office.
+        </p>
+      </div>
+  <div class="box">
+    <h2>Requirements</h2>
+    <ul>
+        <li>Completed admission form</li>
+        <li>Previous school report, where applicable</li>
+        <li>Birth certificate or proof of birth</li>
+        <li>Passport-size photographs</li>
+    </ul>
+</div>
+<div class="box">
+    
+    <h2>Visit Our School</h2>
+<p>
+    Parents and guardians are welcome to visit our school for more information about admission, fees and school programmes.
+</p>
+<a href="contact.html" class="contact-btn">contact us</a>
+</div>
+</div>
+</section>
+
+
+<footer>
+    <p>&copy; All rights reserved. Step Ahead Nursery and Primary School See. </p>
+</footer>
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+</script>
+</body>
+</html>

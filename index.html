@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Ahead Nursery School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo-title">
+            <img src="media.html/images/badge.png" alt="school logo">
+            <h1>Step Ahead Nursery School</h1><br>
+            <span> A KEY TO SUCCESS.</span>
+        </div>
+        <div class="desktop-nav">
+            <a href="index.html">HOME</a>
+            <a href="about us.html">ABOUT US</a>
+            <a href="admisions.html">ADMISIONS</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+
+    <section id="index" class="hero">
+        <video conntrols autoplay muted loop class="home-video">
+            <source src="media.html/background.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-content">
+            <h2><br>Good Teachers. <br>Great Learning.</h2>
+            <p>Welcome to Step Ahead Nursery and Primary School.</p>
+            <div class="buttons">
+                <a href="gallery.html" class="gallery-btn">OUR GALLERY</a>
+                <a href="admisions.html" class="admisions-btn">apply</a>
+
+            </div>
+        </div>
+    </section>
+    <div class="containers">
+        <div class="container">
+            <h3>Qualified Teachers</h3>
+            <p>Experienced and caring educators who are dedicated to student success.</p>
+        </div>
+
+        <div class="container">
+            <h3>Safe Environment</h3>
+            <p>A secure and supportive atmosphere where students can learn and grow.</p>
+        </div>
+
+        <div class="container">
+            <h3>Comprehensive Curriculum</h3>
+            <p>Academic, moral, and social growth.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; All rights reserved. Step Ahead Nursery and Primary School See. </p>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById(".nav-links");
+
+        menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

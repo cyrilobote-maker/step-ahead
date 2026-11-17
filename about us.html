@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Ahead Nursery School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<nav>
+<div class="logo-title">
+    <img src="media.html/images/badge.png" alt="school logo">
+    <h1>Step Ahead Nursery School</h1><br>
+    <span> A KEY TO SUCCESS.</span>
+ </div>
+ <!--desktop-->
+    <div class="desktop-nav">
+        <a href="index.html">HOME</a>
+        <a href="about us.html">ABOUT US</a>
+        <a href="admisions.html">ADMISIONS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT US</a>
+    </div>
+
+    <div id="nav-links" class="mobile-nav">
+        <a href="#index">HOME</a>
+        <a href="#about-us">ABOUT US</a>
+        <a href="#gallery">OUR GALLERY</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#admisions">ADMISIONS</a>
+    </div>
+<button class="menu-toggle" id="menuToggle">☰</button>    
+</nav>
+
+<section id="about-us" class="about-section">
+    <h2>Why Choose Us?</h2>
+    <p>
+        Nurturing Young Minds Through Hands-On Exploration and Play-Based Learning.
+    </p>
+    <div class="features">
+
+        <div class="feature-card">
+            <h3>SKILLED TEACHERS</h3>
+            <p>
+                Our certified teachers are passionate about early childhood development. They combine proven teaching methods with continuous training to ensure your child receives the highest quality guidance, care, and academic foundation.
+            </p>
+        </div>
+        <div class="feature-card">
+            <h3>CONDUCIVE LEARNING ENVIRONMENT</h3>
+            <p>
+                We provide a vibrant, hands-on learning space designed to spark curiosity. Our active classrooms encourage young learners to explore, collaborate, and connect lessons to the real world.
+            </p>
+        </div>
+        <div class="feature-card">
+            <h3>Warm service</h3>
+            <p>
+                From our front office to the classrooms, we maintain a nurturing, inclusive atmosphere. Our dedicated staff is always here to support your family, making school feel like a second home.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer>
+    <p>&copy; All rights reserved. Step Ahead Nursery and Primary School See. </p>
+</footer>
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById(".nav-links");
+
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+</script>
+</body>
+</html>
